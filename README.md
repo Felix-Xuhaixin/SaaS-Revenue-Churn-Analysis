@@ -15,6 +15,7 @@
 
 ## 🛠️ Tools Used
 
+
 - R: dplyr, tidyr, ggplot2, scales, lubridate and GGally 
 
 ## 🧠 Skills Demonstrated
@@ -26,15 +27,18 @@
 
 ## 🔍 Key Findings  
 
-### 📌 Overall Insights  
-- There were **288867 total inspections** in over **30,360 different restaurants** across the city. **Manhattan** leads with 106,783 inspections, followed by Brooklyn and Queens with 74888 and 70693 inspections respectively.
+### 📌 Churn Analysis  
+- By plan, churn rates are :Starter(70.51%), Professional(47.98%), Business(41.25%), Enterprise(22.00%);
+- By billing cycle, churn rates are : Monthly(60.51%),Annual(40.32%); 
+- By acquisition channel, churn rates are : Referral(61.29%), Partner(58.00%), Social Media(55.77%), Paid Ads(53.04%), Organic Search(43.79%), Direct Sales(39.29%)
+- By Company size, churn rates are: 500+(63.16%), 1-10(56.69%), 201-500(53.41%), 11-50(52.84%), 51-200(42.55%)
 
-- Manhattan leads with the highest number of restaurants with **grade A restaurants(36908)**; Brooklyn has 36036 grade A.
-- Staten Island lead with highest rate of grade A (72.59%) , followed by Manhattan with 70.06%.
-- The commonest inspection programs are **Cycle inspection, pre-permit and adminstrative Miscellaneous inspections**. **Initial inspections** was the highest number of inspection phases with 205252 inspections. Re-inspection and Reopening inspection followed with 72471 and 3607 respectively
+- For Starter and Professional customers, the most common reasons for churn are budget cuts and prices being too high; however, the primary reason for churn among Business customers is missing features. Enterprise customers have the lowest churn rate, and their main churn reasons are company closure and no longer needing the service.
 
+- For small companies(1-10), the most common reasons for churn is budget cuts; however,for big Companies(500+) the primary reasons for churn are company closure and poor support.
 
-### 🚨 Violation Analysis 
+### 🚨 Revenue Trends
+- <img width="946" height="580" alt="Monthly Total MMR" src="https://github.com/user-attachments/assets/a20a4cf4-f166-47c5-9243-dd0ea26fe5f0" />
 
 - The top 5 violations were **Facility Maintenance** (73430), **Food Protection & Pest Control** (54678), **Food Worker Hygiene and Other Food Protection** (52022), **Time and Temperature Control for Safety** (36742) and **Garbage, Waste Disposal and Pest Management** (33802).
 
