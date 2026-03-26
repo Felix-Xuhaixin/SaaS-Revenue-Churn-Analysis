@@ -1,72 +1,27 @@
-# **New York City Restaurant Health Inspection Analysis**
+# **SaaS Revenue Churn Analysis**
 
 ---
 
 ## 📌 Project Overview
 
-NYC restaurant health inspections are designed to protect public health by ensuring food safety, sanitation, and regulatory compliance across all food service establishments. Inspectors check for compliance with New York City Health Code and New York State Sanitary Code, which set standards for cleanliness, food storage, pest control, and employee hygiene. The dataset includes restaurant details, location, cuisine descriptions, inspection results, grades, and violation types.
-
+ In this project I analyzed churn rates by different dimensions, monthly recurring revenue (MRR), customer behavior to identify what is causing churn and the relationship between feature usage and churn. This type of analysis contributes to making strategic decisions in finance, product analytics, and growth.
 
 ## 🎯 Objectives
 
-- To identify common health violations
-- To analyze trends by cuisine and geography
-- To find variations in grades and violations across boroughs and over time.
-- To provide actionable recommendations.
+- To analyze trends monthly churn rate
+- To identify the highest churn rate by plan, billing cycle, acquisition channel
+- To find the top3 reasons cause the customers churn 
+- To caculate CLV by plan and compare CLV to CAC
 
 ## 🛠️ Tools Used
 
-- Python: Pandas, SQLAlchemy, pymysql
-- MySQL Workbench  
-- Tableau Public
+- R: dplyr, tidyr, ggplot2, scales, lubridate and GGally 
 
 ## 🧠 Skills Demonstrated
 
-- Data cleaning and transformation with Python  
-- SQL analysis using CTEs, subqueries, joins, and aggregations  
-- Interactive dashboards with Tableau Public
+- R analysis using  dplyr, tidyr, scales, lubridate
+- Interactive dashboards with ggplot2, GGally
   
----
-
-## ⚙️ Methodology  
-
-### 📥 Data Loading  
-Raw data was imported into a Jupyter notebook using `pandas`, cleaned and transformed, then exported to MySQL Workbench via `SQLAlchemy` and `pymysql`.
-
-
-### 🧹 Data Cleaning  
-
-1. **Initial Inspection**   
-   Reviewed structure and content of the raw dataset. 
-
-2. **Duplicate Removal**  
-   First, renamed all columns to lowercase and replaced spaces with underscores for consistency. Then dropped rows with identical `camis`, `inspection_date`, and `violation_code`.
-
-3. **Type Conversion**  
-   Converted date fields (`inspection_date`, `grade_date`, `record_date`) to datetime format.
-   
-4. **Remove Irrelevant Columns**  
-   Dropped fields which were irrelevant for the  analysis: `building`, `phone`, `latitude`, `longitude`, `community_board`, `council_district`, `census_tract`, `bin`, `bbl`, `nta`, `location_point1`.
-
-5. **Standardising the Cuisine_Description Columns**  
-   Standardized `cuisine_description` by:  
-   **Geographic origin** (e.g., African, European, American)  
-   **Thematic grouping** (e.g., ethnic, fast food, beverage
-
-6. **Standardising the Cuisine_Description Columns**  
-   Split `inspection_type` into two new columns: `inspection_program` and `inspection_phase`.
-
-7. **Standardising Violation Code**  
-   Mapped 148 violation codes into broader categories using [NYC Health Code](https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCrules/0-0-0-43593).
-
-8. **Working With Null Values**  
-   Filled gaps in `grade`, `grade_date`, `inspection_program`, `inspection_type`, `scroe`, `violation_code`, `violation_description and 'zipcode`.
-
-
-### 📊 Exploratory Data Analysis (EDA)
-
-The cleaned data was exported to MySQL workbench and then connected to Tableau Public for the analysis. Several techniques like aggregations, CTEs, and joins were used to glean insights using SQL. I then used Tableau Public to visualise the data.
-
 ---
 
 ## 🔍 Key Findings  
