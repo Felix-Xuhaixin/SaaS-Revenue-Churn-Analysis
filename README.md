@@ -38,14 +38,9 @@
 - For small companies(1-10), the most common reasons for churn is budget cuts; however,for big Companies(500+) the primary reasons for churn are company closure and poor support.
 
 ### 🚨 Revenue Trends
-- <img width="946" height="580" alt="Monthly Total MMR" src="https://github.com/user-attachments/assets/a20a4cf4-f166-47c5-9243-dd0ea26fe5f0" />
+- <img width="946" height="580" alt="Monthly MRR" src="https://github.com/user-attachments/assets/c3941b20-87f9-4fac-960c-9a8ca89a8f1c" />
 
-- The top 5 violations were **Facility Maintenance** (73430), **Food Protection & Pest Control** (54678), **Food Worker Hygiene and Other Food Protection** (52022), **Time and Temperature Control for Safety** (36742) and **Garbage, Waste Disposal and Pest Management** (33802).
-
-- There were 153133 **critical** violations (54.44%) as compared to 128152 **non-critical** violations (45.56%).
-
-- All the boroughs had more than 50% of the restaurants flagged for critical violations. The analysis reveals that 55.7% of inspections in **Staten Island** had critical violations. **Queens** borough has 55% of inspections flagged with critical violations. **Brooklyn** had 54.9% of inspections flagged with critical violations.
-
+- 2024-03 has the highest net revenue retention 15573; 2025-04 has the lowest net revenue retention -4263.56
 
 ### 🍽️ Cuisine Analysis  
 
