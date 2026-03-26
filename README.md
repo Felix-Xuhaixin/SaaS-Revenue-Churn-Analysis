@@ -42,27 +42,16 @@
 
 - 2024-03 has the highest net revenue retention 15573; 2025-04 has the lowest net revenue retention -4263.56
 
-### 🍽️ Cuisine Analysis  
+### 🍽️ Unit Economics
+- By plan, the Enterprise has the highest average CLV(319704), the second highest average CLV is Business(51371), the next is Professional(14702), and the lowest average CLV is Starter(1891)
+- CLV:CAC ratio is 5.05
 
-- Top 3 cuisine with highest grades are **North American**(75.38% grade A), **Neutral**(74.97% grade A) and **European**(68.65% grade A).
-- The **Filipino**(25.97% grade C),**Bangladeshi**(24.16% grade C),**Creole**(24.12% grade C),**Pakistani**(22.94 grade C) and **African**(21.72% grade C) are the top 5 cuisine with lowest score.
-- The cuisine with the highest proportion of 'Critical' are **Czech**(69.23%), **Creole**(60.32%), **Bangladeshi**(60.12%) and **Pakistani**(59.93%); The geographic cuisine with the highest proportion of 'Critical' is **South Asian**(58.94%); The geographic cuisine with the highest proportion of 'Critical' are **Ethnic cuisine**(55.65%) and **Fine dining**(55.36%) 
-
-
-## 💡 Recommendations 
-
-1. Improve re-inspection frequency in high-risk areas and restaurants
-2. Targeted education for cuisines with frequent violations.
-3. A city campaign to train food workers on hygiene and safety.
-4. Restaurants should adhere to temperature control guidelines.
-5. Pass legislation for restaurants to have internal quality assurance managers to ensure compliance to the health codes.
-
+## 💡 At-Risk Indicators 
+- The average churn rate is 52.17%. For churned customers, the maximum feature usage is 50, and the median feature usage for currently retained customers is 53, which indicates that customers with feature usage below 50 are at high risk of churning. Therefore, if we hypothetically set feature usage below 50 as the threshold, then the number of current customers at risk of churning is 132.  
 
 ### 🙏 Credit
 
-- **[Analyst Builder](https://www.analystbuilder.com/projects/restaurant-health-inspection-analysis-nyc-FhAOm)** for the datasets and the directions for the analysis.
-
-- **[NYC Environmental Health Services team at DOHMH](https://github.com/nycehs/NYC_geography)** for the topo-json of NYC.  
+- **[Analyst Builder](https://www.analystbuilder.com/projects/saas-revenue-churn-analysis-UPoYs?tab=overview)** for the datasets and the directions for the analysis.
 
 ---
 
