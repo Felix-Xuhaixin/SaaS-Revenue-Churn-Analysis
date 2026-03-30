@@ -48,11 +48,6 @@
 
 ## 💡 At-Risk Indicators 
 - The average churn rate is 52.17%. For churned customers, the maximum feature usage is 50, and the median feature usage for currently retained customers is 53, which indicates that customers with feature usage below 50 are at high risk of churning. Therefore, if we hypothetically set feature usage below 50 as the threshold, then the number of current customers at risk of churning is 132.
-- 
-<img width="946" height="580" alt="Distribution of Feature Usage for Churned Customers" src="https://github.com/user-attachments/assets/73009c4b-7543-4522-968c-c2900317ffcb" />
-
-<img width="946" height="580" alt="Distribution of Feature Usage for Retained Customers" src="https://github.com/user-attachments/assets/a5187d46-7fc4-4015-8abb-d50cd5f5b131" />
-
 
 ### 🙏 Credit
 
